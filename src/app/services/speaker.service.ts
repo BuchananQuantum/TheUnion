@@ -133,7 +133,7 @@ export class SpeakerService {
       id: 6,
       username: 'Erica',
       location: 'Seeker',
-      role: 'Learning Solutions Architect',
+      role: 'Little Dick joel',
       companyId: 5,
       photoUrl: 'https://i.redd.it/voisyxpuvvu81.jpg',
       linkedin: "https://www.linkedin.com/in/",
