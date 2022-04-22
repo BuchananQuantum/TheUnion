@@ -25,12 +25,16 @@
   </ion-header>
 
   
-
-
-  <div class="ion-padding">
+<ion-row>
+    <ion-col size="auto">
+     <div class="ion-padding">
     <app-agenda-card
       *ngFor="let item of agenda; trackBy: trackItems"
       [id]="item.id"
     ></app-agenda-card>
   </div>
+    </ion-col>
+</ion-row>
+
+  
 </ion-content>

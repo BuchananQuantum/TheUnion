@@ -15,7 +15,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Platinum,
       biography: LOREM_IPSUM,
-      homepage: "https://onlyfans.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Platinum,
       biography: LOREM_IPSUM,
-      homepage: "https://openforge.io/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Gold,
       biography: LOREM_IPSUM,
-      homepage: "https://auth0.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Gold,
       biography: LOREM_IPSUM,
-      homepage: "https://nrwl.io/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Gold,
       biography: LOREM_IPSUM,
-      homepage: "https://couchbase.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 6,
@@ -60,7 +60,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Gold,
       biography: LOREM_IPSUM,
-      homepage: "https://launchpadlab.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 7,
@@ -69,7 +69,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Silver,
       biography: LOREM_IPSUM,
-      homepage: "https://strapi.io/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 8,
@@ -78,7 +78,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Bronze,
       biography: LOREM_IPSUM,
-      homepage: "https://vuemastery.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 9,
@@ -87,7 +87,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Silver,
       biography: LOREM_IPSUM,
-      homepage: "https://briebug.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 10,
@@ -96,7 +96,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Silver,
       biography: LOREM_IPSUM,
-      homepage: "https://jnesis.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 11,
@@ -105,7 +105,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Silver,
       biography: LOREM_IPSUM,
-      homepage: "https://hybridmob.com/"
+      homepage: "https://gfy.com/"
     },
     {
       id: 12,
@@ -114,7 +114,7 @@ export class SponsorService {
       accentColor: '#000000',
       tier: SponsorTier.Silver,
       biography: LOREM_IPSUM,
-      homepage: "https://benovelty.com/"
+      homepage: "https://gfy.com/"
     },
   ];
 
