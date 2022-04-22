@@ -1,0 +1,61 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Account Settings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="page-content">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Account Settings</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list-header class="ion-padding-top ion-padding-start ion-padding-end eas-header-large">User Profile Settings</ion-list-header>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Multiple Selection
+      </ion-label>
+    </ion-list-header>
+  
+    <ion-item>
+      <ion-label>Toppings</ion-label>
+      <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+        <ion-select-option value="bacon">Bacon</ion-select-option>
+        <ion-select-option value="olives">Black Olives</ion-select-option>
+        <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+        <ion-select-option value="peppers">Green Peppers</ion-select-option>
+        <ion-select-option value="mushrooms">Mushrooms</ion-select-option>
+        <ion-select-option value="onions">Onions</ion-select-option>
+        <ion-select-option value="pepperoni">Pepperoni</ion-select-option>
+        <ion-select-option value="pineapple">Pineapple</ion-select-option>
+        <ion-select-option value="sausage">Sausage</ion-select-option>
+        <ion-select-option value="Spinach">Spinach</ion-select-option>
+      </ion-select>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Pets</ion-label>
+      <ion-select multiple="true" [value]="['bird', 'dog']">
+        <ion-select-option value="bird">Bird</ion-select-option>
+        <ion-select-option value="cat">Cat</ion-select-option>
+        <ion-select-option value="dog">Dog</ion-select-option>
+        <ion-select-option value="honeybadger">Honey Badger</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/raffle.png" />
+
+      <ion-card-title><strong>EAS Swag</strong></ion-card-title>
+      <ion-card-subtitle>Conference attendees, enter your info for a chance to win free Ionic and EAS21 swag!</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Note: Entries for the swag raffle are now closed.</p>
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>

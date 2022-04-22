@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Filters</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-list>
+    <ion-item>
+      <ion-label>Call Type</ion-label>
+      <ion-select value="dog">
+        <ion-select-option value="inCall">In Call</ion-select-option>
+        <ion-select-option value="outCall">Out Call</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-input [value]="dateValue2"></ion-input>
+      <ion-button fill="clear" id="open-date-input-2">
+        <ion-icon icon="calendar"></ion-icon>
+      </ion-button>
+      <ion-popover trigger="open-date-input-2" show-backdrop="false">
+        <ng-template>
+          <ion-datetime
+            #popoverDatetime2
+            presentation="date"
+            (ionChange)="dateValue2 = formatDate(popoverDatetime2.value)"
+          ></ion-datetime>
+        </ng-template>
+      </ion-popover>
+    </ion-item>
+    <ion-item>
+      <ion-label>Availability</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option value="monday">Monday</ion-select-option>
+        <ion-select-option value="tuesday">Tuesday</ion-select-option>
+        <ion-select-option value="wednesday">Wednesday</ion-select-option>
+        <ion-select-option value="thursday">Thursday</ion-select-option>
+        <ion-select-option value="friday">Friday</ion-select-option>
+        <ion-select-option value="saturday">Saturday</ion-select-option>
+        <ion-select-option value="sunday">Sunday</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Body Type</ion-label>
+      <ion-select value="notifications" interface="action-sheet">
+        <ion-select-option value="enable">Type 1</ion-select-option>
+        <ion-select-option value="mute">Type 2</ion-select-option>
+        <ion-select-option value="mute_week">Type 3</ion-select-option>
+        <ion-select-option value="mute_year">Type 4</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Ethnicity</ion-label>
+      <ion-select ok-text="Okay" cancel-text="Nah">
+        <ion-select-option value="dos">White</ion-select-option>
+        <ion-select-option value="lunix">Black</ion-select-option>
+        <ion-select-option value="mac7">Hispanic</ion-select-option>
+        <ion-select-option value="mac8">Pacific Islander</ion-select-option>
+        <ion-select-option value="win3.1">Australian</ion-select-option>
+        <ion-select-option value="win95">Dickhead</ion-select-option>
+        <ion-select-option value="win98">Joels a Bitch</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Hair Color</ion-label>
+      <ion-select value="03">
+        <ion-select-option value="01">Color1</ion-select-option>
+        <ion-select-option value="02">Color2</ion-select-option>
+        <ion-select-option value="03">Color3</ion-select-option>
+        <ion-select-option value="04">Color4</ion-select-option>
+        <ion-select-option value="05">Color5</ion-select-option>
+        <ion-select-option value="06">Color6</ion-select-option>
+        <ion-select-option value="07">Color-7</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

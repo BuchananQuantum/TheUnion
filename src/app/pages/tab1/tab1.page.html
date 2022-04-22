@@ -1,0 +1,36 @@
+<ion-header collapse="fade" [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Connections
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-content" [fullscreen]="true">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="secondary">
+        <ion-button>
+          <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+        </ion-button>
+
+      </ion-buttons>
+      <ion-buttons slot="primary">
+        <ion-button color="secondary">
+          <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>UserName</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  
+
+
+  <div class="ion-padding">
+    <app-agenda-card
+      *ngFor="let item of agenda; trackBy: trackItems"
+      [id]="item.id"
+    ></app-agenda-card>
+  </div>
+</ion-content>
